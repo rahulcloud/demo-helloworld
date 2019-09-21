@@ -7,5 +7,5 @@
     tasks:
       - name: Copy war file from jenkins to tomcat
         copy:
-          src: /var/lib/jenkins/workspace/ansible-test/webapp/target/webapp.war
+          src: /var/lib/jenkins/workspace/jenkins-ansible-maven/webapp/target/webapp.war
           dest: /opt/tomcat/apache-tomcat-8.5.45/webapps
